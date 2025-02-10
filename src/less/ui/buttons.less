@@ -1,0 +1,206 @@
+.aside-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: transparent;
+	height: 40px;
+	width: 40px;
+	border-radius: 12px;
+	border: 1px solid transparent;
+	transition: 0.3s all ease;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.05);
+
+		svg path {
+			fill-opacity: 0.85;
+		}
+	}
+
+	&:active {
+		background: rgba(255, 255, 255, 0.16);
+
+		svg path {
+			fill-opacity: 1;
+		}
+	}
+}
+
+// .aside-btn.active {
+// 	background: rgba(255, 255, 255, 0.16);
+
+// 	svg path {
+// 		fill-opacity: 1;
+// 	}
+// }
+
+.aside-theme-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: transparent;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	border: 1px solid transparent;
+	transition: 0.3s all ease;
+
+	&:hover {
+		// background: rgba(255, 255, 255, 0.05);
+
+		svg path {
+			fill-opacity: 0.85;
+		}
+	}
+}
+
+.aside-theme-btn.active {
+	background: rgba(255, 255, 255, 0.16);
+
+	svg path {
+		fill-opacity: 1;
+	}
+}
+
+.aside-delete-btn {
+	border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.main-btn-edit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: rgba(151, 71, 255, 0.11);
+	border: 1px solid rgba(151, 71, 255, 0.85);
+	height: 30px;
+	width: 30px;
+	border-radius: 8px;
+	transition: 0.3s all ease;
+
+	&:hover {
+		background: rgba(151, 71, 255, 0.16);
+	}
+}
+
+.main-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 11px;
+	cursor: pointer;
+	background-color: rgba(151, 71, 255, 0.11);
+	border: 1px solid rgba(151, 71, 255, 0.85);
+	height: 48px;
+	width: 48px;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.11);
+
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.11) 0%,
+		rgba(255, 255, 255, 0.05) 100%
+	);
+
+	box-shadow: 0px 3px 12px 0px rgba(31, 31, 31, 0.05);
+	backdrop-filter: blur(10px);
+	transition: 0.3s all ease;
+
+	&:hover {
+		background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.16) 0%,
+			rgba(255, 255, 255, 0.11) 100%
+		);
+	}
+}
+
+.main-magicstick {
+	display: flex;
+	width: 18px;
+	height: 18px;
+	padding: 1.8px 1.799px 1.8px 1.801px;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+}
+
+.main-grey {
+	cursor: pointer;
+	display: flex;
+	width: 36px;
+	height: 36px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 100%;
+	border: none;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.16);
+	transition: 0.3s all ease;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.16);
+
+		svg path {
+			fill-opacity: 1;
+		}
+	}
+}
+
+.main-green {
+	cursor: pointer;
+	display: flex;
+	width: 36px;
+	height: 36px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 12px;
+	border: none;
+	background-color: transparent;
+	border: 1px solid rgba(139, 207, 22, 0.85);
+	transition: 0.3s all ease;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.16);
+
+		svg path {
+			fill-opacity: 1;
+		}
+	}
+}
+
+.main-stars {
+	cursor: pointer;
+	display: flex;
+	width: 36px;
+	height: 36px;
+	padding: 8px;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 12px;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.16) 0%,
+		rgba(255, 255, 255, 0.05) 100%
+	);
+	box-shadow: 0px 3px 12px 0px rgba(31, 31, 31, 0.05);
+	transition: 0.3s all ease;
+}
+
+.main-uparrow {
+	display: flex;
+	width: 13px;
+	height: 13px;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border: none;
+	background-color: transparent;
+}

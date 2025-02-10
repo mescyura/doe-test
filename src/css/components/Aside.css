@@ -1,0 +1,83 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 65px 0 42px 0;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  /* Hide scrollbar by default */
+  /* Scrollbar track */
+  /* Thumb (scroll handle), invisible by default */
+  /* Show thumb on hover of the scrollbar itself */
+  /* Show thumb on hover in Firefox */
+}
+.aside__globe {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.aside__main {
+  padding: 0 18px 43px 18px;
+  max-width: 76px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.aside__profile {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+.aside__profile img {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 100%;
+}
+.aside__profile .theme-toggle {
+  padding: 6px 0;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aside__tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aside::-webkit-scrollbar {
+  width: 8px;
+  /* Narrow scrollbar */
+  background-color: transparent;
+  /* Invisible by default */
+}
+.aside::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.aside::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+  height: 20px;
+  transition: background-color 0.3s ease;
+}
+.aside::-webkit-scrollbar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Slight background color on hover */
+}
+.aside:hover {
+  scrollbar-color: rgba(255, 255, 255, 0.05) transparent;
+  /* Visible thumb */
+}
+.line {
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  width: 100%;
+}
+/*# sourceMappingURL=Aside.css.map */
